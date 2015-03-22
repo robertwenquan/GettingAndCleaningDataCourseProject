@@ -16,17 +16,23 @@
 
 ##### Run the R script
 To run the R script, you can simply run the R script if you are under Linux command line
+~~~
 $ chmod +x ./run_analysis.R
 $ ./run_analysis.R
+~~~
 
 or you can open R console and load the script file
+~~~
 $ R
 ...
 > source('run_analysis.R')
+~~~
 
 or you can open R Stuidio and load the script from there
 either from command line
+~~~
 > source('run_analysis.R')
+~~~
 or from the menu "File" -> "Open File" and choose "run_analysis.R"
 Ctrl-A to choose all, and Ctrl-Enter to run the selected script
 
