@@ -1,9 +1,11 @@
 # Getting and Cleaning Data Course Project
 
-##### About this repository
+##### About this README
 * This is for Coursera getdata-012 "Getting & Cleaning Data" Course Project
-* by Robert Wen (robert.wen@nyu.edu)
-* due date is Mar 22 7:30 PM EDT
+* This README describes the technical assumptions to run the R script
+* The means to run the R script is specified
+* The way to check the output result is also specified
+* As for how the data is interpreted and translated to the clean data set, please refer to the CodeBook
 
 ##### Prepare the dataset for analysis (optional)
 * NOTE: This step is only for informational purpose
