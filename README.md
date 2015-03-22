@@ -1,7 +1,9 @@
 # Getting and Cleaning Data Course Project
 
-##### About the author
-* Robert Wen (robert.wen@nyu.edu)
+##### About this repository
+* This is for Coursera getdata-012 "Getting & Cleaning Data" Course Project
+* by Robert Wen (robert.wen@nyu.edu)
+* due date is Mar 22 7:30 PM EDT
 
 ##### Prepare the dataset for analysis (optional)
 * NOTE: This step is only for informational purpose
@@ -12,7 +14,6 @@
 * It's assumed that the "dplyr" package is preinstalled before we run this script because we are using select, felter, summarize functions in dplyr package
 * It's also assumed that the internet connection is available because the data for analysis will be fetched from internet before doing analysis
 * Exceptions for those assumptions are not handled at all
-
 
 ##### Run the R script
 To run the R script, you can simply run the R script if you are under Linux command line
@@ -35,7 +36,6 @@ either from command line
 ~~~
 or from the menu "File" -> "Open File" and choose "run_analysis.R"
 Ctrl-A to choose all, and Ctrl-Enter to run the selected script
-
 
 ##### Check the result
 Once finished running with a bunch of output messages
