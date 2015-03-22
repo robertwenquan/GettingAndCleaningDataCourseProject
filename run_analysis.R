@@ -109,5 +109,6 @@ clean_data_set <- eval(parse(text = r_cmd_str))
 # write the data set to a file named "clean-data.txt"
 # this will write 181 lines of data
 # with the first line as the column names
+names(clean_data_set) <- c("activity", "subject", selected_features[,2])
 write.table(clean_data_set, file = 'clean-data.txt', row.name = FALSE)
 
