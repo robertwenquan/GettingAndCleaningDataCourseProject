@@ -5,7 +5,7 @@
 * This README describes the technical assumptions to run the R script
 * The means to run the R script is specified
 * The way to check the output result is also specified
-* As for how the data is interpreted and translated to the clean data set, please refer to the [CodeBook]: CodeBook
+* As for how the data is interpreted and translated to the clean data set, please refer to the [CodeBook](CodeBook.md)
 
 ##### Prepare the dataset for analysis (optional)
 * NOTE: This step is only for informational purpose
