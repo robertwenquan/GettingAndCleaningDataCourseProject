@@ -19,9 +19,11 @@
     - body velocity on X/Y/Z axis
 
 #### Step 1 Merges the training and the test sets to create one data set.
-<ul>
-<li> sdf </li>
-</ul>
+  * Read global data
+  * Read test data and train data
+  * Merge test and train in memory
+  * Write the merged data set to disk
+
 #### Step 2 Extracts only the measurements on the mean and standard deviation for each measurement.
 <ul>
 <li> sdf </li>
