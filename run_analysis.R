@@ -73,7 +73,7 @@ all_merged <- cbind(features_merged, activity_merged, subject_merged)
 
 # query the global feature data read from 'features.txt' and identify
 # which columns are of our interest about mean() and std()
-selected_features <- feature[grep('std()|mean()', feature$feature_name),]
+selected_features <- feature[grep('std\\(\\)|mean\\(\\)', feature$feature_name),]
 selected_columns <- selected_features[,1]
 
 all_extracted <- select(all_merged, c(activity, subject, selected_columns))
