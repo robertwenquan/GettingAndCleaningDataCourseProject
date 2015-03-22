@@ -22,6 +22,12 @@ library(dplyr)
 # step0. read the data
 #
 
+#   0.0 download the data and unpack it
+download_url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+filename <- "UCI_HAR_Dataset.zip"
+download.file(download_url, destfile = filename, method = 'curl')
+unzip('UCI_HAR_Dataset.zip')
+
 #   0.1 read the global data
 #       the feature data and activity_labels data are globally used for test and train data
 #       they give us the descriptive name of the activities, as well as the feature names
