@@ -1,13 +1,12 @@
 # Getting and Cleaning Data Course Project
-Getting and Cleaning Data Course Project from Coursera
 
 ##### About the author
-Robert Wen (robert.wen@nyu.edu)
+* Robert Wen (robert.wen@nyu.edu)
 
 ##### Prepare the dataset for analysis (optional)
-##### NOTE: This step is only for informational purpose
-##### The data prepration is included in the R script so you don't have to run this
-The script 'prepare_data.sh' will download the dataset and unpack it under the directory named "UCI HAR Dataset"
+* NOTE: This step is only for informational purpose
+* The data prepration is included in the R script so you don't have to run this
+* The script 'prepare_data.sh' will download the dataset and unpack it under the directory named "UCI HAR Dataset"
 
 ##### Technical Assumption
 * It's assumed that the "dplyr" package is preinstalled before we run this script because we are using select, felter, summarize functions in dplyr package
