@@ -30,7 +30,9 @@
   * Apart from the activity and subject columns, the other columns are selected based on value from the 2nd column of "UCI HAR Dataset/features.txt". If "std()" or "mean()" matches the value, those observations are of our interest according to the problem specification.
  * Data Fields for the clean data set
   * "activity"
+    - the descriptive name of the activity been measured
   * "subject"
+    - the ID of the test subject, corresponding to a certain person
   * "tBodyAcc-mean()-X"
   * "tBodyAcc-mean()-Y"
   * "tBodyAcc-mean()-Z"
