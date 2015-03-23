@@ -24,7 +24,11 @@ library(dplyr)
 #   0.0 download the data and unpack it
 download_url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 filename <- "UCI_HAR_Dataset.zip"
-download.file(download_url, destfile = filename, method = 'curl')
+if (Sys.info()[['sysname']] == "Linux") {
+  download.file(download_url, destfile = filename, method = 'curl')
+} else {
+  download.file(download_url, destfile = filename)
+}
 unzip('UCI_HAR_Dataset.zip')
 
 #   0.1 read the global data
