@@ -7,11 +7,6 @@
 * The way to check the output result is also specified
 * As for how the data is interpreted and translated to the clean data set, please refer to the [CodeBook](CodeBook.md)
 
-##### Prepare the dataset for analysis (optional)
-* NOTE: This step is only for informational purpose
-* The data prepration is included in the R script so you don't have to run this
-* The script 'prepare_data.sh' will download the dataset and unpack it under the directory named "UCI HAR Dataset"
-
 ##### Technical Assumption
 * It's assumed that the "dplyr" package is preinstalled before we run this script because we are using select, felter, summarize functions in dplyr package
 * It's also assumed that the internet connection is available because the data for analysis will be fetched from internet before doing analysis
