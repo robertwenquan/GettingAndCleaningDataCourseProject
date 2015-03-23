@@ -49,7 +49,12 @@ The remaining 180 lines are the 180 data observations
 To quickly check the clean set of result, you can run the following lines in R
 ~~~
 # download the data from the web
-download.file('https://s3.amazonaws.com/coursera-uploads/user-758a19dee505ee5a355d0cb7/973499/asst-3/5fc626e0d0e411e49f94cf56e74c64c9.txt', destfile = 'rwen_clean_data.txt')
+if (Sys.info()[['sysname']] == "Linux") {
+    download.file('https://s3.amazonaws.com/coursera-uploads/user-758a19dee505ee5a355d0cb7/973499/asst-3/5fc626e0d0e411e49f94cf56e74c64c9.txt', destfile = 'rwen_clean_data.txt', method = 'curl')
+} else {
+    download.file('https://s3.amazonaws.com/coursera-uploads/user-758a19dee505ee5a355d0cb7/973499/asst-3/5fc626e0d0e411e49f94cf56e74c64c9.txt', destfile = 'rwen_clean_data.txt')
+}
+
 # read the data
 data <- read.table('rwen_clean_data.txt', header = TRUE)
 # the data should be 180 rows and 68 columns
