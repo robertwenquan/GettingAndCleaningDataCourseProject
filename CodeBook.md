@@ -19,10 +19,6 @@
     - what activity is performed in this test
   * [test|train]/subject_test.txt
     - who did the test
-  * {test,train}/Inertial Signals/{body_acc,total_acc,body_gyro}_{x,y,z}_{test,train}.txt
-    - The total accelation on X/Y/Z axis
-    - body acceleration on X/Y/Z axis
-    - body velocity on X/Y/Z axis
 
 ##### Output Data
  * Clean data set produced in Step 5, named "clean-data.txt"
