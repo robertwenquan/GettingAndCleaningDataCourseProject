@@ -1,4 +1,8 @@
 # Getting and Cleaning Data Course Project
+##### For the grader
+* I did update some files after the deadline, because I found something was not complete. For example my code has minor issue running on Windows because I coded it on Linux.
+* The bottom line is, my code doesn't change the output at all.
+* You can check my older version of the files if you really want to stick to the version before the submission deadline. Thanks!
 
 ##### About this README
 * This is for Coursera getdata-012 "Getting & Cleaning Data" Course Project
